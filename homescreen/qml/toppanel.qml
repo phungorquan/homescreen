@@ -7,13 +7,12 @@ Window {
     height: 216
     flags: Qt.FramelessWindowHint
     visible: true
-    color: "#33363a"
+    color: "red"
 
-    TopArea {
-    }
+    TopArea {}
 
     Timer {
-        id:notificationTimer
+        id: notificationTimer
         interval: 3000
         running: false
         repeat: true
@@ -34,7 +33,7 @@ Window {
             width: parent.width
             height: parent.height
             anchors.fill: parent
-            color: "gray"
+            color: "red"
             Image {
                 id: notificationIcon
                 width: 70
@@ -51,7 +50,7 @@ Window {
                 anchors.left: notificationIcon.right
                 anchors.leftMargin: 5
                 anchors.verticalCenter: parent.verticalCenter
-                color: "white"
+                color: "red"
                 text: qsTr("")
             }
         }
