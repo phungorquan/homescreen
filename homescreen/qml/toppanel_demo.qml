@@ -3,11 +3,10 @@ import QtQuick.Window 2.11
 import QtQuick.Layouts 1.1
 
 Window {
-    flags: Qt.FramelessWindowHint
-    width: Screen.width
-    height: 216
-    title: 'HomeScreen top'
-    color: 'blue'
-    visible: false
-    active: false
+	visible: true
+	flags: Qt.FramelessWindowHint
+	width: Screen.width
+	height: 216
+	title: 'HomeScreen top'
+	color: 'blue'
 }
