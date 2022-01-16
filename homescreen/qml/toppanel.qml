@@ -4,13 +4,12 @@ import QtQuick.Window 2.13
 Window {
     id: toppanel
     width: Screen.width
-    height: 216
+    height: 0
     flags: Qt.FramelessWindowHint
     visible: true
     color: "red"
 
-    TopArea {}
-
+    //    TopArea {}
     Timer {
         id: notificationTimer
         interval: 3000
