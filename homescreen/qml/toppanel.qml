@@ -6,8 +6,8 @@ Window {
     width: Screen.width
     height: 0
     flags: Qt.FramelessWindowHint
-    visible: true
-    color: "red"
+    visible: false
+    color: "blue"
 
     //    TopArea {}
     Timer {
