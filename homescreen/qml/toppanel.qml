@@ -5,9 +5,8 @@ Window {
     id: toppanel
     width: Screen.width
     height: 0
-    flags: Qt.FramelessWindowHint
-    visible: false
-    color: "blue"
+    visible: true
+    color: "red"
 
     //    TopArea {}
     Timer {
@@ -60,7 +59,7 @@ Window {
         onShowNotification: {
             notificationIcon.source = icon_path
             notificationtext.text = text
-            notificationItem.visible = true
+            //            notificationItem.visible = true
             notificationTimer.restart()
         }
     }

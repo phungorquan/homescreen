@@ -4,16 +4,14 @@ import QtQuick.Window 2.13
 Window {
     id: bottompanel
     width: Screen.width
-    height: 216
-    flags: Qt.FramelessWindowHint
+    height: 0
+    //    flags: Qt.FramelessWindowHint
     visible: true
     color: "#33363a"
 
-    MediaArea {
-    }
-
+    //    MediaArea {}
     Timer {
-        id:informationTimer
+        id: informationTimer
         interval: 3000
         running: false
         repeat: true
@@ -36,7 +34,7 @@ Window {
             horizontalAlignment: Text.AlignHCenter
             color: "white"
             text: ""
-            z:1
+            z: 1
         }
     }
 
