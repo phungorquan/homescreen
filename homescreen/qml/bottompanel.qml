@@ -4,7 +4,7 @@ import QtQuick.Window 2.13
 Window {
     id: bottompanel
     width: Screen.width
-    height: 50
+    height: 10
     flags: Qt.FramelessWindowHint
     visible: true
     color: "blue"

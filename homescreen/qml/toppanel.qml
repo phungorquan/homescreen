@@ -4,8 +4,9 @@ import QtQuick.Window 2.13
 Window {
     id: toppanel
     width: Screen.width
-    height: 50
+    height: 10
     visible: true
+    flags: Qt.FramelessWindowHint
     color: "red"
 
     //    TopArea {}
