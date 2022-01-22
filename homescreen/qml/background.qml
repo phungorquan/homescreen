@@ -3,8 +3,8 @@ import QtQuick.Window 2.13
 
 Window {
     id: background
-    width: 800
-    height: 800
+    width: 1080
+    height: 1920
     flags: Qt.FramelessWindowHint
     visible: true
 
