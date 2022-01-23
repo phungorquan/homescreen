@@ -4,10 +4,10 @@ import QtQuick.Window 2.13
 Window {
     id: bottompanel
     width: Screen.width
-    height: 10
+    height: 1
     flags: Qt.FramelessWindowHint
     visible: true
-    color: "blue"
+    color: "black"
 
     //    MediaArea {}
     //    Timer {

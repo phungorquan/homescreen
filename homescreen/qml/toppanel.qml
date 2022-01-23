@@ -4,10 +4,10 @@ import QtQuick.Window 2.13
 Window {
     id: toppanel
     width: Screen.width
-    height: 10
+    height: 1
     visible: true
     flags: Qt.FramelessWindowHint
-    color: "red"
+    color: "black"
 
     //    TopArea {}
     //    Timer {
